@@ -1,0 +1,98 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>☀️ OpenWeather App 🌤️ | 💻 Mikel Echeverria</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap CSS -->
+    <link href="./assets/css/bootstrap.css" rel="stylesheet" type="text/css">
+    <!-- Custom CSS -->
+    <link href="./assets/css/style.css" rel="stylesheet" type="text/css">
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    <!-- Bootstrap JS -->
+    <script defer src="./assets/js/bootstrap.min.js"></script>
+    <!-- jQuery -->
+    <script defe src="./assets/js/jquery.min.js"></script>
+    <!-- Weather App JS -->
+    <script defe src="./assets/js/weather.js"></script>
+</head>
+
+<body class="bg-dark">
+    <div class="container-fluid">
+        <!-- Contenedor del título -->
+        <div id="contTitulo"></div>
+        <!-- Contenedor del tiempo -->
+        <div class="row">
+            <div id="tiempo"
+                class="position-absolute top-50 start-50 translate-middle mx-auto col-10 col-sm-10 col-md-5 p-3 row">
+                <!-- Contenedor de la imagen -->
+                <div id="cajaImg" class='col-5 col-sm-5 col-md-2'></div>
+                <!-- Contenedor de la ciudad -->
+                <div class='col-5 col-sm-4 col-md-3 mt-2 ms-3'>
+                    <h1 id='ciudad'></h1>
+                </div>
+                <!-- Contenedor de la temperatura -->
+                <div class='col-4 col-sm-2 col-md-2 mt-2 ms-3'>
+                    <h1 id='temperatura'></h1>
+                </div>
+                <!-- Contenedor de la temperatura mínima y máxima -->
+                <div class='row col-8 col-ms-4 col-md-3 mt-2'>
+                    <div class='col-12' id="algo">
+                        <span id='min' class='col-6'></span>
+                        <span id='max' class='col-6'></span>
+                    </div>
+                </div>
+                <!-- Contenedor de la tabla -->
+                <div class="row col-12 mt-4">
+                    <table class="ms-4">
+                        <tr id="tr"></tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid">
+        <!-- Contenedor de la barra de navegación -->
+        <div class="row fixed-bottom">
+            <div class=" bg-dark">
+                <div class="d-flex flex-row flex-nowrap bg-dark align-items-center sticky-top">
+                    <!-- Lista de elementos de la barra de navegación -->
+                    <ul class="nav nav-pills flex-row flex-nowrap mb-auto mx-auto text-center align-items-center">
+                        <!-- Elemento "Home" -->
+                        <li class="nav-item">
+                            <a href="#" id="home" class="nav-link py-3 px-2" title="" data-bs-toggle="tooltip"
+                                data-bs-placement="right" data-bs-original-title="Home">
+                                <i class="bi-house fs-1 "></i>
+                            </a>
+                        </li>
+                        <!-- Elemento "Dashboard" -->
+                        <li>
+                            <a href="#" id="lupa" class="nav-link py-3 px-2" title="" data-bs-toggle="tooltip"
+                                data-bs-placement="right" data-bs-original-title="Dashboard">
+                                <i class="bi-search fs-1"></i>
+                            </a>
+                        </li>
+                        <!-- Elemento de búsqueda -->
+                        <li>
+                            <div class="input-group" id="search">
+                                <input type="search" id="buscar" class="form-control" />
+                            </div>
+                        </li>
+                        <!-- Elemento de ubicación -->
+                        <li>
+                            <a href="#" id="location" class="nav-link py-3 px-2" title="" data-bs-toggle="tooltip"
+                                data-bs-placement="right" data-bs-original-title="Orders">
+                                <i class="bi-geo-alt fs-1"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

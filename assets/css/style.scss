@@ -1,0 +1,54 @@
+@import "../scss/main.scss";
+
+/* My personal CSS */
+#tiempo {
+    background: $gradiant-color1;
+    @include gradiant-bg($gradiant-color1, $gradient-color2);
+    border-radius: $border-radius;
+}
+
+h1 {
+    color: $font-color;
+}
+
+span {
+    color: $font-color;
+}
+
+img {
+    width: 75px;
+}
+
+#titulo h1 {
+    font-size: $font-size;
+    z-index: 400;
+    font-weight: $font-bold;
+}
+
+#titulo span {
+    color: $primary-color;
+    opacity: .7;
+}
+
+i {
+    color: $primary-color;
+    opacity: .7;
+}
+
+@media (max-width: 480px) {
+    #titulo h1 {
+        font-size: $font-size-mobile;
+    }
+}
+
+#buscar {
+    background: transparent;
+    border-radius: $border-rounded;
+    border: 1px solid $primary-color;
+    color: #ffffff;
+    font-weight: $font-bold;
+    font-size: 1.2rem;
+    text-transform: capitalize;
+}
+
+/*# sourceMappingURL=config.css.map */
