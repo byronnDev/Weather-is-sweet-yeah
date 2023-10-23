@@ -2,6 +2,12 @@
 
 Este proyecto es una aplicación web que muestra información meteorológica para una ciudad determinada. Utiliza la API de OpenWeatherMap para obtener datos meteorológicos y muestra la temperatura actual, la temperatura mínima y máxima, y una imagen que representa el clima actual. La aplicación está desarrollada con HTML, CSS, JavaScript, Bootstrap, Sass y jQuery.
 
+## Demostración
+
+Puedes ver una demostración en vivo de la aplicación aquí: [Enlace a la demostración](https://byronndev.github.io/Weather-is-sweet-yeah/)
+![image](https://github.com/byronnDev/Weather-is-sweet-yeah/assets/38868773/e0286cdd-2cb0-43cc-b2c1-a3a69b7199d0)
+
+
 ## Funcionalidades
 
 - Muestra la temperatura actual, la temperatura mínima y máxima, y una imagen que representa el clima actual para una ciudad determinada.
