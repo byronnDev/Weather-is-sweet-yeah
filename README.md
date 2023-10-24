@@ -7,7 +7,7 @@ Este proyecto es una aplicación web que muestra información meteorológica par
 Puedes ver una demostración en vivo de la aplicación aquí: [Enlace a la demostración](https://byronndev.github.io/Weather-is-sweet-yeah/)
 
 
-![image](https://github.com/byronnDev/Weather-is-sweet-yeah/assets/38868773/1a31d1b7-3378-4d3c-b915-c567e888ae06)
+![image](https://github.com/byronnDev/Weather-is-sweet-yeah/assets/38868773/36b0c9a1-092e-47f8-a226-fbb4ca6e8a83)
 
 
 ## Funcionalidades
