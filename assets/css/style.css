@@ -1,8 +1,8 @@
 /* My personal CSS */
 #tiempo {
-  background: #09b9ff;
-  background: linear-gradient(0deg, #09b9ff 0%, #003563 100%);
-  border-radius: 15px;
+  background: rgb(9, 177, 255);
+  background: linear-gradient(0deg, rgb(9, 177, 255) 0%, rgb(0, 41, 99) 100%);
+  border-radius: 35px;
 }
 
 h1 {
@@ -24,13 +24,13 @@ img {
 }
 
 #titulo span {
-  color: #09b9ff;
-  opacity: .7;
+  color: rgb(9, 193, 255);
+  opacity: 0.7;
 }
 
 i {
-  color: #09b9ff;
-  opacity: .7;
+  color: rgb(9, 193, 255);
+  opacity: 0.7;
 }
 
 @media (max-width: 480px) {
@@ -38,13 +38,14 @@ i {
     font-size: 2.5rem;
   }
 }
-
 #buscar {
   background: transparent;
   border-radius: 50px;
-  border: 1px solid #09b9ff;
+  border: 1px solid rgb(9, 193, 255);
   color: #ffffff;
   font-weight: bold;
   font-size: 1.2rem;
   text-transform: capitalize;
 }
+
+/*# sourceMappingURL=style.css.map */
