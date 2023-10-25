@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /* My personal CSS */
 #tiempo {
   background: rgb(9, 177, 255);
@@ -48,4 +49,25 @@ i {
   text-transform: capitalize;
 }
 
-/*# sourceMappingURL=style.css.map */
+.table-container {
+  width: 100%;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  /* para mejorar el desplazamiento en dispositivos móviles */
+}
+
+table {
+  width: 100%;
+  overflow: -webkit-paged-x;
+  /* para permitir el desplazamiento horizontal */
+}
+
+tr {
+  white-space: nowrap;
+}
+
+/* para ocultar la scrollbar en navegadores webkit */
+.table-container::-webkit-scrollbar {
+  width: 0;
+  height: 0;
+}/*# sourceMappingURL=style.css.map */
